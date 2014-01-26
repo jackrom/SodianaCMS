@@ -1,0 +1,16 @@
+#product-images-wrapper div{
+	display:inline-block;
+	width:70px;
+	height:110px;
+	text-align:center;
+}
+#product-images-wrapper div a{
+	text-decoration:none;
+	font-size:9px;
+}
+div.default{
+	background:#ff0;
+}
+ul,li{
+	list-style:none;
+}

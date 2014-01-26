@@ -1,0 +1,49 @@
+#products-carousel .jcarousel-container-horizontal {
+	 padding: 20px 40px;
+}
+#products-carousel .jcarousel-clip {
+	 overflow: hidden;
+}
+#products-carousel .jcarousel-item:hover,
+#products-carousel .jcarousel-item-horizontal {
+	 margin-left: 0; margin-right: 7px;
+}
+#products-carousel .jcarousel-next-horizontal {
+	 position: absolute; top: 0px; right: 5px; width: 32px; bottom: 0;
+	 cursor: pointer;
+	 background: transparent url(i/next-horizontal.png) no-repeat 0 center;
+}
+#products-carousel .jcarousel-next-horizontal:hover,
+#products-carousel .jcarousel-next-horizontal:focus {
+	 background-position: -32px center;
+}
+#products-carousel .jcarousel-next-horizontal:active {
+	 background-position: -64px 0;
+}
+#products-carousel .jcarousel-next-disabled-horizontal,
+#products-carousel .jcarousel-next-disabled-horizontal:hover,
+#products-carousel .jcarousel-next-disabled-horizontal:focus,
+#products-carousel .jcarousel-next-disabled-horizontal:active {
+	 cursor: default; background-position: -96px center;
+}
+#products-carousel .jcarousel-prev-horizontal {
+	 position: absolute; top: 0px; left: 5px; width: 32px; bottom: 0;
+	 cursor: pointer;
+	 background: transparent url(i/prev-horizontal.png) no-repeat 0 center;
+}
+#products-carousel .jcarousel-prev-horizontal:hover,
+#products-carousel .jcarousel-prev-horizontal:focus {
+	 background-position: -32px center;
+}
+#products-carousel .jcarousel-prev-horizontal:active {
+	 background-position: -64px center;
+}
+#products-carousel .jcarousel-prev-disabled-horizontal,
+#products-carousel .jcarousel-prev-disabled-horizontal:hover,
+#products-carousel .jcarousel-prev-disabled-horizontal:focus,
+#products-carousel .jcarousel-prev-disabled-horizontal:active {
+	 cursor: default; background-position: -96px 0;
+}
+#products-mapview{
+	 min-height:400px;
+}

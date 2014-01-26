@@ -1,0 +1,18 @@
+/**
+ * api.css, KV-Webme Themes Repository
+ *
+ * this is an optional file which contains
+ * default css rules for the javascript themes
+ * api.
+ *
+ * @author     Conor Mac Aoidh <conormacaoidh@gmail.com>
+ * @license    GPL 2.0
+ * @version    1.0
+ */
+.themes-container{ position:absolute;top:0;min-width:850px; }
+.themes-container table{ background: #fff; border: 1px solid #ccc;
+border-spacing:0;border-radius:5px }
+.carousel-theme-container{ width:260px;padding:10px;height:300px;min-height:680px }
+.middle{ background: #eee } 
+h2{ font-size: 16px; }
+.theme-container{ margin:10px; width:260px }

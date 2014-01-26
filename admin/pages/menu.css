@@ -1,0 +1,38 @@
+div#pages-wrapper li a ins{
+	background-image:url(icons.png);
+	background-position:0 0;
+}
+div#pages-wrapper li[hide=yes] a ins{
+	background-image:url(icons-hidden.png);
+	background-position:0 0;
+}
+div#pages-wrapper li[hide=yes] a{
+	color:#999;
+}
+div#pages-wrapper li[type=forms] a ins{
+	background-position:-16px -16px;
+}
+div#pages-wrapper li[type=news] a ins{
+	background-position:0 -16px;
+}
+div#pages-wrapper li[type=image-gallery] a ins{
+	background-position:-16px 0;
+}
+
+.report-two-column{
+	border-right:1px solid #333;
+	border-bottom:1px solid #333;
+}
+.report-two-column thead {
+	background:#333;
+}
+.report-two-column thead th{
+	color:#fff;
+}
+.report-two-column td.amt{
+	text-align:right;
+	border-left:1px solid #333;
+}
+.report-two-column td{
+	border:1px solid #eee;
+}

@@ -1,0 +1,28 @@
+#image-gallery-wrapper{
+	list-style-type:none;
+	clear:both;
+	padding:0;
+}
+#image-gallery-wrapper li{
+	float:left;
+	padding:9px;
+	margin:1px;
+	width:64px;
+	height:80px;
+	border:1px dashed #ccc;
+	border-radius:4px;
+	background:#fff
+}
+#image-gallery-wrapper li.image-gallery-highlight{
+	border:1px solid #999;
+	background:#ccc;
+}
+#p-description {
+	width:100%;
+}
+#p-dialog input{
+	width:100%;
+}
+#image-gallery-frame-custom input{
+	width:50px;
+}

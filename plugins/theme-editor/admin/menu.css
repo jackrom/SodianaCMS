@@ -1,0 +1,22 @@
+div.sub-nav li{
+	clear:both;
+	list-style:none;
+}
+div.sub-nav li .actions{
+	text-align:right;
+}
+div.sub-nav li:hover .actions *{
+	visibility:visible;
+}
+div.sub-nav li .actions *{
+	visibility:hidden;
+}
+div.sub-nav li .actions a{
+	padding:0;
+	background:none;
+	display:inline;
+}
+div.sub-nav li .actions a:hover{
+	background:none;
+	color:red;
+}

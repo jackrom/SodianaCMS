@@ -1,0 +1,13 @@
+div.panel-widget-privacy button, div.panel-widget-privacy img{
+	cursor: pointer;
+}
+div.panel-widget-privacy ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+div.panel-widget-privacy li{
+	list-style:none;
+	float:left;
+	padding-left:10px;
+}
